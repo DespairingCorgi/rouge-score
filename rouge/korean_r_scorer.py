@@ -57,13 +57,13 @@ def get_scores(refs, cands):
     return scores
 
 
-import pandas as pd
+# import pandas as pd
 
-df = pd.read_csv('한국어 - 시트2.csv')
+# df = pd.read_csv('한국어 - 시트2.csv')
 
-references = df["human"].values.tolist()
-candidates = df["matis"].values.tolist()
+# references = df["human"].values.tolist()
+# candidates = df["matis"].values.tolist()
 
-outputdf = pd.DataFrame(get_scores(references, candidates))
+# outputdf = pd.DataFrame(get_scores(references, candidates))
 
-outputdf.to_csv('rouge_scores_kor_matis.csv', index=False)
+# outputdf.to_csv('rouge_scores_kor_matis.csv', index=False)

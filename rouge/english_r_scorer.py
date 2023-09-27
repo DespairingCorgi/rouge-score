@@ -19,7 +19,7 @@ for ref, cand in zip(references, candidates):
     }
     scores_list.append(precision)
 
-scores_df = pd.DataFrame(scores_list)
-scores_df.to_csv('rouge_scores_eng_google.csv', index=False)
+#scores_df = pd.DataFrame(scores_list)
+#scores_df.to_csv('rouge_scores_eng_google.csv', index=False)
 
-print(scores_df.head())
+#print(scores_df.head())

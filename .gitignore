@@ -1,0 +1,8 @@
+#ignore _pychache_
+__pycache__/
+
+#ignore .csv files
+*.csv
+
+#ignore main.py
+main.py
